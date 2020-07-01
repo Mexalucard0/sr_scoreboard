@@ -1,0 +1,179 @@
+/* SUNRISE RP */
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans:bold');
+
+html {
+	color: #34495e;
+	font-family: 'Segoe UI';
+}
+
+#wrap {
+    position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	width: 450px;
+    background-color: rgb(46, 46, 46, 0.7);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5), 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px 12px 12px 12px;
+}
+
+#Robb {
+	border-spacing: 10px 0px;
+	width: 100%;
+	padding-bottom: 25px;
+	margin-top: 20px;
+	margin-left: 0px;
+	background: linear-gradient(to right, #ff5e00 0%, #ffd000 50%, #ff0000 100%) left bottom no-repeat; 
+  	background-size: 100% 3px;
+}
+
+#Robb td {
+	position: relative;
+	background-color: #444444e1;
+	width: 80px;
+	height: 60px;
+	left: 0px;
+	border-radius: 5px;
+}
+
+#Robb td img {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	margin-left: 9.0px;
+}
+
+#Job {
+	border-spacing: 20px 0px;
+	padding-bottom: 15px;
+	margin-top: 17px;
+	margin-left: 2px;
+}
+
+#Job td {
+	position: relative;
+	width: 65px;
+	height: 55px;
+}
+
+#Job td img {
+	width: 40px;
+	height: 40px;
+	margin-top: 0px;
+	margin-left: 4.5px;
+}
+
+#Job td p {
+	position: relative;
+	font-family: monospace;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	bottom: 10px;
+	color: #fff;
+}
+
+.header {
+    height: 55px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 19px;
+}
+
+.container {
+	-moz-transition: height .8s;
+  	-ms-transition: height .8s;
+  	-o-transition: height .8s;
+  	-webkit-transition: height .8s;
+	transition: height .8s;
+	overflow: hidden;
+	height: 200;
+}
+
+.footer {
+	height: 40;
+}
+
+.header h3 {
+	position: absolute;
+	margin: 0;
+	margin-top: 8.5%;
+	color: #ffffff;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.Htitle {
+	font-family: 'Expletus Sans';
+	background: linear-gradient(-45deg, #ff5e00 0%, #ffd000 50%, #ff0000 100%);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 50s ease infinite;
+	-moz-animation: Gradient 50s ease infinite;
+	animation: Gradient 50s ease infinite;
+	height: 55px;
+	width: 100%;
+	border-radius: 12px 12px 0 0;
+}
+
+.Ftitle {
+	font-family: 'Expletus Sans';
+	background: linear-gradient(-45deg, #ff5e00 0%, #ffd000 50%, #ff0000 100%);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 50s ease infinite;
+	-moz-animation: Gradient 50s ease infinite;
+	animation: Gradient 50s ease infinite;
+	height: 40;
+	width: 100%;
+	border-radius: 0 0 12px 12px;
+}
+
+.Htitle span {
+	position: relative;
+	bottom: 10px;
+}
+
+#Ftable {
+	border-spacing: 40px;
+}
+
+#Ftable td {
+	position: relative;
+	left: 15px;
+	bottom: 31px;
+}
+
+.glow {
+	-webkit-animation-name: glowRobb;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s; 
+	-webkit-transform-style: preserve-3d;
+	box-shadow: 0px 0px 30px #ccc;
+}
+
+@-webkit-keyframes glowRobb {
+    0% { box-shadow: 0px 0px 20px 5px  #ccc; }
+    50% { box-shadow: 0px 0px 20px 0px  #ccc; }
+    100% { box-shadow: 0px 0px 20px 5px  #ccc; }
+}
+
+@-webkit-keyframes Gradient {
+	0% {background-position: 0% 50%}
+  	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+}
+
+@-moz-keyframes Gradient {
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+}
+
+@keyframes Gradient {
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+}
